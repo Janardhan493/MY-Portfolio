@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mangali Janardhan — Viral Content Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Dark/Light Toggle -->
+  <div class="theme-toggle">
+    <i id="theme-icon" class="fas fa-moon"></i>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#campaigns">Influencer Campaigns</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero" data-aos="fade-up">
+    <div class="container">
+      <h1>Mangali Janardhan</h1>
+      <p>Filmmaker, Video Editor & Content Creator</p>
+      <p>Making videos that go viral 🎬✨</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills" data-aos="fade-right">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <div class="skill">Video Editing (CapCut, Premiere Pro)</div>
+        <div class="skill">Content Strategy & Trend Analysis</div>
+        <div class="skill">Influencer Outreach & Collaboration</div>
+        <div class="skill">On-camera Performance</div>
+        <div class="skill">Social Media Analytics</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects" data-aos="fade-left">
+    <div class="container">
+      <h2>Top Videos / Projects</h2>
+      <div class="filter-btns">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="facebook">Facebook</button>
+        <button class="filter-btn" data-filter="instagram">Instagram</button>
+        <button class="filter-btn" data-filter="shortfilm">Short Film</button>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Facebook Video -->
+        <div class="project-card" data-category="facebook">
+  <iframe 
+    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3332540176862252&show_text=0&width=560" 
+    width="100%" 
+    height="400" 
+    style="border:none;overflow:hidden" 
+    scrolling="no" 
+    frameborder="0" 
+    allowfullscreen="true">
+  </iframe>
+  <div class="card-overlay">
+    <h3>Facebook Video</h3>
+    <p>Views: <span class="counter" data-target="120000">0</span> | Likes: <span class="counter" data-target="5200">0</span></p>
+  </div>
+</div>
+
+
+        <!-- Instagram Reel -->
+        <div class="project-card" data-category="instagram">
+          <iframe 
+            src="https://www.instagram.com/p/DPeDRhMD8cX/embed" 
+            width="100%" 
+            height="400" 
+            frameborder="0" 
+            scrolling="no" 
+            allowtransparency="true" 
+            allowfullscreen>
+          </iframe>
+          <div class="card-overlay">
+            <h3>Instagram Reel</h3>
+            <p>Views: <span class="counter" data-target="80000">0</span> | Likes: <span class="counter" data-target="5200">0</span></p>
+          </div>
+        </div>
+
+
+        <!-- Shortfilm -->
+        <div class="project-card" data-category="shortfilm">
+  <iframe 
+    src="https://www.youtube.com/embed/Tl92sQtt428" 
+    width="100%" 
+    height="400" 
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
+  <div class="card-overlay">
+    <h3>Short Film</h3>
+    <p>Views: <span class="counter" data-target="150000">0</span> | Likes: <span class="counter" data-target="8200">0</span></p>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Influencer Campaigns -->
+  <section id="campaigns" class="campaigns" data-aos="fade-up">
+    <div class="container">
+      <h2>Influencer Campaigns</h2>
+      <div class="campaign-grid">
+        <div class="campaign-card">
+          <h3>@InfluencerName</h3>
+          <p>Type: UGC Video</p>
+          <p>Views: <span class="counter" data-target="30000">0</span> | Engagement: 5%</p>
+          <p>Role: Concept & Editor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education" data-aos="fade-right">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-card">
+        <h3>B.Tech in Computer Science</h3>
+        <p>Bheema Institute of Technology (2021–2025)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bonus Runable Task -->
+  <section class="bonus" data-aos="zoom-in">
+    <div class="container">
+      <h2>Runable Bonus Task</h2>
+      <div class="bonus-card">
+        <iframe src="https://www.youtube.com/embed/Tl92sQtt428" frameborder="0" allowfullscreen></iframe>
+        <p>A 60-second viral video showcasing a Runable use-case.</p>
+      </div>
+    </div>
+  </section>
+
+ <section id="contact" class="contact" data-aos="fade-up">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+      <form id="contact-form" action="https://formspree.io/f/mvgvgkww" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" 
+          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0">
+  </script>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
